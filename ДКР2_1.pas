@@ -14,7 +14,7 @@ begin
     read(a[i]);
   for i := 1 to m - 1 do
   begin
-    if a[i] > a[i + 1] then k := false;
+    if a[i] >= a[i + 1] then k := false;
   end;
   if k = true then writeln('Массив ЯВЛЯЕТСЯ возрастающим') 
   else writeln('Массив НЕ ЯВЛЯЕТСЯ возрастающим');
